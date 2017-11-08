@@ -12,6 +12,7 @@ import { LoginComponent } from './login/login.component';
 /*Routing Modules */
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    SignupComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
